@@ -1,4 +1,4 @@
-# lottery
+# youshantui
 
 > 优闪推后台手机端项目。
 
