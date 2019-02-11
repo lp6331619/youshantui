@@ -1,0 +1,140 @@
+theme = #3380df
+
+.header
+    background: theme
+    color: #fff
+    z-index 999!important
+    .van-nav-bar__left
+        .van-icon
+            color: #fff
+        img 
+            width: 120px
+            position: relative;
+            top: 14px;
+    .van-nav-bar__text
+        color: #fff
+.van-nav-bar--fixed 
+    position: fixed !important
+.mt15
+    margin-top 15px
+.bg
+    background: #fff
+    box-shadow: 0 0 10px rgba(65,65,65,.1)
+    padding:15px
+
+.btnBox
+    padding:10px 15px 15px;
+    button
+        margin-top: 15px
+
+.van-button--primary
+    background: theme
+    border-color: theme
+.van-tabs__line
+    background-color: theme
+
+.null
+    text-align: center
+    padding:40px 0;
+
+.optimization
+    padding-bottom 0
+    .title
+        font-size 16px
+        line-height 40px
+        margin -10px -15px -1px
+        padding 0 15px
+        border-bottom 1px solid #eee
+        .iconfont:before
+            background linear-gradient(to bottom, #3E8DF7, #53B5F4)
+            -webkit-background-clip text
+            color transparent
+            font-size 20px
+            margin-right 5px
+    .van-row
+        text-align center
+        color #999
+        font-size 14px
+        margin 0 !important
+    .topBox
+        position relative
+        &:before
+            content ''
+            position absolute
+            left 0
+            top 128px
+            right 0
+            height 1px
+            background #eee
+        .van-col
+            margin-top 20px
+            padding-bottom 20px
+            position relative
+            font-size 12px
+            &:before
+                content ''
+                width 1px
+                position absolute
+                right 0
+                top 20px
+                bottom 30px
+                background #eee 
+            &:nth-child(3):before,
+            &:last-child:before
+                display: none
+    .num
+        strong
+            font-size 30px
+            background linear-gradient(to left, #C48CEB, #4747EA)
+            -webkit-background-clip text
+            color transparent
+            text-shadow 0 0 10px rgba(0, 0, 0, 0.2)
+    .item
+        .iconfont
+            display inline-block
+            vertical-align middle
+            width 40px
+            height 40px
+            line-height 40px
+            margin-right 10px
+            border-radius 50%
+            background #007FE6
+            color #fff
+    .bottom
+        border-top 1px solid #eee
+        margin-top 10px!important
+        padding 20px 0
+.tableBox
+    table
+        width 100%
+        margin-top 20px
+        text-align center
+        border-left 1px solid #eee
+        border-bottom 1px solid #eee
+        th, td
+            border-top 1px solid #eee
+            border-right 1px solid #eee
+            padding 5px
+            font-size 12px
+        .itemBox
+            padding 0
+            table 
+                margin-top 0
+                border 0
+                tr:first-child
+                    td
+                        border-top none
+            .item
+                // border-top 1px solid #eee
+                max-width 150px
+                .num
+                    font-weight bold
+                    color #ff7e00
+                &:last-child
+                    border-right none
+.forBox
+    .van-cell__label
+        color #f44
+        padding-left 89px
+.van-nav-bar__title
+    color #fff!important
